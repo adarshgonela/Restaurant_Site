@@ -1,20 +1,19 @@
-
 <?php
-include('../conn.php');
+
 function getnonVegs(){
     global $conn;
  
-        $sql = "SELECT * FROM nonvegs";
+        $sql = "SELECT * FROM nonVegs";
 
     $result = mysqli_query($conn, $sql);
 
-    $nonvegs = [];
+    $nonVegs = [];
 
     while($row = mysqli_fetch_assoc($result)){
-        $nonvegs[] = $row;
+        $nonVegs[] = $row;
     }
 
-    return $nonvegs;
+    return $nonVegs;
 }
 
 ?>
