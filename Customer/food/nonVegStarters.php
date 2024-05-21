@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include('header.php')?>
+    <?php include('../pages/header.php')?>
 </head>
 <body>
-    <?php include('sidebar.php')?>
-    <?php include('navbar.php')?>
+    <?php include('../pages/sidebar.php')?>
+    <?php include('../pages/navbar.php')?>
     <!-- <div style="height: 85vh; width: 75vw; border: 2px solid black;">
     </div> -->
+
     <div class="flex items-center">
           <div class="mr-auto md:mr-6 md:w-150 ">
             
@@ -444,6 +445,6 @@
 
           </div>
     </div>
-    <?php include('footer.php')?>
+    <?php include('../pages/footer.php')?>
 </body>
 </html>
