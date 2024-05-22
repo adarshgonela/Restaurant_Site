@@ -59,7 +59,7 @@
         <li>
           <a class="" href="#">
             <button class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize" type="button">
-            <svg width="4vh" height="4vh" viewBox="0 0 32 32" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg fill="white" width="4vh" height="4vh" viewBox="0 0 32 32" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <style type="text/css">
 	.st0{stroke:#231F20;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
@@ -89,9 +89,7 @@
         <li>
           <a class="" href="#">
             <button class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize" type="button">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-5 h-5 text-inherit">
-                <path fill-rule="evenodd" d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z" clip-rule="evenodd"></path>
-              </svg>
+            <svg fill="white" width="4vh" height="4vh" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="4.96" cy="9.98" r=".63"/><circle cx="5.9" cy="8.55" r=".31"/><path fill-rule="evenodd" d="M15.15 9v-.09a2.45 2.45 0 0 0 0-.27v-.33a2.21 2.21 0 0 1-.15-.25v-.27c0-.09 0-.17-.08-.25a1.43 1.43 0 0 1-.08-.22v-.05a1.6 1.6 0 0 1-.1-.23 1.86 1.86 0 0 0-.1-.2l-.12-.23v-.09a6.41 6.41 0 0 0-1-1.24h-2.75l.65-2.44a.67.67 0 0 1 .32-.4.61.61 0 0 1 .51 0l1.87.71.45-1.16L12.7 1a1.88 1.88 0 0 0-2.49 1.27l-.73 2.78H7.31a3.15 3.15 0 0 0-3.23-2.86 3.13 3.13 0 0 0-3.23 3A3 3 0 0 0 2.79 8a2.21 2.21 0 0 1 0 .25v.31a2.45 2.45 0 0 0 0 .27v.45A6.06 6.06 0 0 0 8.9 15.1a6.06 6.06 0 0 0 6.25-5.85zM8.9 13.85a4.81 4.81 0 0 1-5-4.6A4.41 4.41 0 0 1 5.06 6.3h7.69a4.4 4.4 0 0 1 1.15 3 4.81 4.81 0 0 1-5 4.55zM2.1 5.23a1.89 1.89 0 0 1 2-1.79 1.93 1.93 0 0 1 2 1.61H4.53a6.07 6.07 0 0 0-1 1.24.56.56 0 0 1 0 .08l-.12.23a1.42 1.42 0 0 0-.08.18A1.8 1.8 0 0 1 2.1 5.23z"/></svg>
               <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-medium capitalize">juices</p>
             </button>
           </a>
