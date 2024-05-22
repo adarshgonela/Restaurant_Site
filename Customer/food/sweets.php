@@ -54,7 +54,7 @@
             <?php echo $sweet['price'];  ?>
           </span>
         </td>
-        <td class="px-6 py-4"><?php echo $sweet['description'];  ?></td>
+        <td class="px-6 py-4"><?php echo $sweet['driscription'];  ?></td>
         <td class="px-6 py-4">
 
       <!-- <tr class="hover:bg-gray-50">
