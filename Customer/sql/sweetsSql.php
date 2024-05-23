@@ -1,6 +1,6 @@
 <?php
 include('../conn.php');
-function getSweets()
+function getSweets();
 {
     global $conn;
     $sql="select * from sweets";

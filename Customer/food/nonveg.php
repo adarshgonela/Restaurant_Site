@@ -7,7 +7,7 @@
     <?php include('../pages/header.php')?>
     <?php 
     include_once('../sql/nonvegSql.php');
-    $nonvegs = getnonVegs();
+    $nonvegs = getnonVeg();
     ?>
 </head>
 <body>
