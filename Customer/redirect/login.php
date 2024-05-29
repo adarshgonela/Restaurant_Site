@@ -19,7 +19,7 @@
     <div class="w-full h-100">
       <h1 class="text-xl md:text-2xl font-bold leading-tight mt-12 ">Log in to your account</h1>
       
-      <form class="mt-6" action="#" method="POST">
+      <form class="mt-6" action="../sql/loginSql.php" method="post">
         <div>
           <label for="email" class="block text-gray-700 font-bold ">Email Address:</label>  
           <input type="email" id="email" name="email" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete="email" required>
