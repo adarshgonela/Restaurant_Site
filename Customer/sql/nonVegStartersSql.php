@@ -3,7 +3,7 @@
 function getnonVegStarters(){
     global $conn;
  
-        $sql = "SELECT * FROM nonVegStarters";
+        $sql = "SELECT * FROM nonvegstarters";
 
     $result = mysqli_query($conn, $sql);
 

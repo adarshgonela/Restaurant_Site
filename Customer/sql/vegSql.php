@@ -2,7 +2,7 @@
 function getvegs(){
     global $conn;
  
-        $sql = "SELECT * FROM vegs";
+        $sql = "SELECT * FROM veg";
 
     $result = mysqli_query($conn, $sql);
 

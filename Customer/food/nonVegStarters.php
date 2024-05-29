@@ -7,7 +7,7 @@
     <?php include('../pages/header.php')?>
     <?php 
     include_once('../sql/nonvegStartersSql.php');
-    $nonvegStarters = getnonVegStarters();
+    $nonvegstarters = getnonvegstarters();
     ?>
 </head>
 <body>
@@ -30,7 +30,7 @@
       </tr>
     </thead>
     <tbody class="divide-y divide-gray-100 border-t border-gray-100">
-<?php foreach ($nonVegStarters as $nonVegStarters) {
+<?php foreach ($nonvegstarters as $nonvegstarters) {
   ?>
       <tr class="hover:bg-gray-50">
         <th class="flex gap-3 px-6 py-4 font-normal text-gray-900">
@@ -43,7 +43,7 @@
             <span class="absolute right-0 bottom-0 h-2 w-2 rounded-full bg-green-400 ring ring-white"></span>
           </div>
           <div class="text-sm">
-            <div class="font-medium text-gray-700"><?php echo $nonVegStarters['name'];  ?></div>
+            <div class="font-medium text-gray-700"><?php echo $nonvegstarters['name'];  ?></div>
           </div>
         </th>
         <td class="px-6 py-4">
@@ -51,10 +51,10 @@
             class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-semibold text-green-600"
           >
             <span class="h-1.5 w-1.5 rounded-full bg-green-600"></span>
-            <?php echo $nonVegStarters['price'];  ?>
+            <?php echo $nonvegstarters['price'];  ?>
           </span>
         </td>
-        <td class="px-6 py-4"><?php echo $nonVegStarters['quantity'];  ?></td>
+        <td class="px-6 py-4"><?php echo $nonvegstarters['quantity'];  ?></td>
         <td class="px-6 py-4">
           <!-- <div class="flex gap-2">
             <span

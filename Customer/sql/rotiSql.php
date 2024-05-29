@@ -1,4 +1,5 @@
 <?php
+include('../conn.php');
 function getrotis(){
     global $conn;
     $sql="SELECT * FROM roti";

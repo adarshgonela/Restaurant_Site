@@ -6,8 +6,8 @@
     <title>Document</title>
     <?php include('../pages/header.php')?>
     <?php 
-    include_once('../sql/nonvegSql.php');
-    $nonvegs = getjucies();
+    include_once('../sql/juciesSql.php');
+    $jucies = getjucies();
     ?>
 </head>
 <body>
@@ -30,7 +30,7 @@
       </tr>
     </thead>
     <tbody class="divide-y divide-gray-100 border-t border-gray-100">
-<?php foreach ($juceis as $jucies) {
+<?php foreach ($jucies as $jucies) {
   ?>
       <tr class="hover:bg-gray-50">
         <th class="flex gap-3 px-6 py-4 font-normal text-gray-900">

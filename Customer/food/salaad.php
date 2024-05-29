@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php include('../pages/header.php')?>
-    <?php 
+      <?php
     include_once('../sql/salaadSql.php');
     $salaads = getsalaads();
-    ?>
+        ?>
 </head>
 <body>
     <?php include('../pages/sidebar.php')?>

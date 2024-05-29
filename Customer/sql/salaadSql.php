@@ -2,7 +2,7 @@
 function getsalaads(){
     global $conn;
  
-        $sql = "SELECT * FROM salaads";
+        $sql = "SELECT * FROM salaad";
 
     $result = mysqli_query($conn, $sql);
 
