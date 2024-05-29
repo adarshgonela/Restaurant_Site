@@ -21,15 +21,15 @@
       <form class="w-full mt-10 space-y-8" action="#" method="POST">
         <div class="relative">
           <label for="username" class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 font-medium text-gray-600 absolute">Username</label>
-          <input id="username" name="username" placeholder="Enter your Username" type="text" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md"/>
+          <input id="username" name="username" placeholder="Enter your Username" type="text" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md autofocus autocomplete="username" required>
         </div>
         <div class="relative">
           <label for="email" class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 font-medium text-gray-600 absolute">Email</label>
-          <input id="email" name="email" placeholder="Enter your email" type="email" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md"/>
+          <input id="email" name="email" placeholder="Enter your email" type="email" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md autofocus autocomplete="email" required>
         </div>
         <div class="relative">
           <label for="password" class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 font-medium text-gray-600 absolute">Password</label>
-          <input id="password" name="password" placeholder=" Enter Password" type="password" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md"/>
+          <input id="password" name="password" placeholder=" Enter Password" type="password" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md autofocus autocomplete="password" required>
         </div>
         <div class="text-right mt-2">
         <p class="mt-8 text-center">Already have an account? <a href="http://localhost/Github/Restaurant_Site/Customer/redirect/login.php#" class="text-blue-500 hover:text-blue-700 font-semibold">Log in</a></p>

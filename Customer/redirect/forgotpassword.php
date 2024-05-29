@@ -19,7 +19,7 @@
   <section class="flex flex-col md:flex-row h-screen items-center">
 
     <!-- Left Side (Image Section) -->
-    <div class="bg-indigo-600 w-full md:w-1/2 xl:w-1/3 ">
+    <div class="bg-indigo-600 w-full md:w-1/2 xl:w-2/3 ">
       <img src="https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1123.jpg?w=740&t=st=1716878227~exp=1716878827~hmac=761acee4c52758178f3e6ab2938168f21b92bfd1aa071afdd6b423e6299bd17f">
     </div>
 
