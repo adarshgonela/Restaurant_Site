@@ -7,7 +7,7 @@
     <?php include('../pages/header.php')?>
     <?php 
     include_once('../sql/sweetsSql.php');
-    $sweets = getsweet();
+    $sweets = getSweets();
     ?>
 </head>
 <body>
