@@ -7,7 +7,7 @@
     <?php include('../pages/header.php')?>
     <?php 
     include_once('../sql/sweetsSql.php');
-    $sweets = getSweets();
+    $sweet = getSweets();
     ?>
 </head>
 <body>
@@ -30,7 +30,7 @@
       </tr>
     </thead>
     <tbody class="divide-y divide-gray-100 border-t border-gray-100">
-      <?php foreach ($sweets as $sweet) {
+      <?php foreach ($sweet as $sweets) {
   ?>
       <tr class="hover:bg-gray-50">
         <th class="flex gap-3 px-6 py-4 font-normal text-gray-900">
@@ -43,7 +43,7 @@
             <span class="absolute right-0 bottom-0 h-2 w-2 rounded-full bg-green-400 ring ring-white"></span>
           </div>
           <div class="text-sm">
-            <div class="font-medium text-gray-700"><?php echo $sweet['name'];  ?></div>
+            <div class="font-medium text-gray-700"><?php echo $sweets['name'];  ?></div>
           </div>
         </th>
         <td class="px-6 py-4">
@@ -51,10 +51,10 @@
             class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-1 text-xs font-semibold text-green-600"
           >
             <span class="h-1.5 w-1.5 rounded-full bg-green-600"></span>
-            <?php echo $sweet['price'];  ?>
+            <?php echo $sweets['price'];  ?>
           </span>
         </td>
-        <td class="px-6 py-4"><?php echo $sweet['driscription'];  ?></td>
+        <td class="px-6 py-4"><?php echo $sweets['quantity'];  ?></td>
         <td class="px-6 py-4">
 
       <!-- <tr class="hover:bg-gray-50">
