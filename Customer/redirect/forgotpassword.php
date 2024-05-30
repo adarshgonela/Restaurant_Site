@@ -19,41 +19,29 @@
   <section class="flex flex-col md:flex-row h-screen items-center">
 
     <!-- Left Side (Image Section) -->
-    <div class="bg-indigo-600 w-full md:w-1/2 xl:w-1/3 ">
+    <div class="bg-indigo-600 w-full md:w-1/2 xl:w-2/3 ">
       <img src="https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1123.jpg?w=740&t=st=1716878227~exp=1716878827~hmac=761acee4c52758178f3e6ab2938168f21b92bfd1aa071afdd6b423e6299bd17f">
     </div>
 
     <!-- Right Side (Form Section) -->
-    <div class="bg-white w-full md:w-1/2 xl:w-2/3 right-side px-10 lg:px-20 xl:px-24 flex items-center justify-center">
-      <main id="content" role="main" class="w-full max-w-lg mx-auto p-8">
-        <div class="bg-white rounded-xl shadow-lg dark:bg-gray-800 dark:border-gray-700">
-          <div class="p-6 sm:p-8">
-            <div class="text-center">
-              <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">Forgot password?</h1>
-              <div class="mt-5 mb-10">
-                <form action="password_reset_process.php" method="POST">
-                  <div class="grid gap-y-4">
-                    <div>
-                    <label for="email" class="block text-gray-700 font-bold ">Email Address:</label>
-                      <div class="relative">
-                        <input type="email" id="email" name="email" class="py-3 px-4 block w-full border-2 border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 shadow-sm" required aria-describedby="email-error">
-                      </div>
-                      <p class="hidden text-xs text-red-600 mt-2" id="email-error">Please include a valid email address so we can get back to you</p>
-                    </div>
-                    <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">Reset password</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              Remember your password?
-              <a class="text-blue-600 decoration-2 hover:underline font-medium" href="http://localhost/Github/Restaurant_Site/Customer/redirect/login.php#">Login here</a>
-            </p>
-          </div>
+    <div class="bg-white w-full md:w-2/4  xl:w-2/3  right-side  px-20 lg:px-20 xl:px-24 flex items-center justify-center">
+    <div class="w-full">
+      <p class="text-4xl font-medium text-center leading-snug font-serif">Forgot password ?</p>
+      <form class="w-full mt-10 space-y-8" action="#" method="POST">
+        <div class="relative">
+          <label for="email" class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 font-medium text-gray-600 absolute">Email address:</label>
+          <input id="email" name="email" placeholder="Enter your email" type="email" class="border placeholder-gray-400 focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 text-base block bg-white border-gray-300 rounded-md autofocus autocomplete="email" required>
         </div>
-        
-      </main>
+        <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg px-4 py-3 mt-6">Reset password</button>
+      </form>
+
+      
+
+      <p class="mt-8">Remember your password? <a href="http://localhost/Github/Restaurant_Site/Customer/redirect/signup.php#" class="text-blue-500 hover:text-blue-700 font-semibold">Login here</a></p>
     </div>
-  </section>
+  </div>
+  </main>
+  </div>
+</section>
 </body>
 </html>

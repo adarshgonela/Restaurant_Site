@@ -1,7 +1,8 @@
 
 <?php
 include('../conn.php');
-function getnonVegs(){
+function getnonVegs()
+{
     global $conn;
  
         $sql = "SELECT * FROM nonvegs";
